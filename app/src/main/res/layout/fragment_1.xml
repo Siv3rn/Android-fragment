@@ -7,12 +7,13 @@
     tools:context=".Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lihat kelebihan"
-        android:textColor="@color/white"
-        android:background="@drawable/rounded_corner"
+        android:text="@string/Text2"
+        android:paddingHorizontal="60dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
         />
 
 </LinearLayout>
